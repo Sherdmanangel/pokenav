@@ -15,6 +15,10 @@ $pokenav-theme: mat.define-theme((
     theme-type: light,
     primary: mat.$azure-palette,
     tertiary: mat.$blue-palette,
+    use-system-variables: true,
+  ),
+  typography: (
+    use-system-variables: true,
   ),
   density: (
     scale: 0,
@@ -26,6 +30,8 @@ $pokenav-theme: mat.define-theme((
 // that you are using.
 :root {
   @include mat.all-component-themes($pokenav-theme);
+  @include mat.system-level-colors($pokenav-theme); // 👈 Added
+  @include mat.system-level-typography($pokenav-theme); // 👈 Added
 }
 
 // Comment out the line below if you want to use the pre-defined typography utility classes.
@@ -34,3 +40,6 @@ $pokenav-theme: mat.define-theme((
 
 // Comment out the line below if you want to use the deprecated `color` inputs.
 // @include mat.color-variants-backwards-compatibility($pokenav-theme);
+
+
+
