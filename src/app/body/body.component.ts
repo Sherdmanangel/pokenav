@@ -4,13 +4,15 @@ import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatCardModule} from "@angular/material/card";
 import {MatChipsModule} from "@angular/material/chips";
 import {ScrollingModule} from "@angular/cdk/scrolling";
+import {MatRipple} from "@angular/material/core";
+import {NgStyle} from "@angular/common";
 
 @Component({
   selector: 'app-body',
   templateUrl: './body.component.html',
   styleUrl: './body.component.css',
   standalone: true,
-  imports: [MatGridListModule,ScrollingModule,MatCardModule, MatChipsModule, MatProgressBarModule],
+  imports: [MatGridListModule, ScrollingModule, MatCardModule, MatChipsModule, MatProgressBarModule, MatRipple, NgStyle],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BodyComponent {
