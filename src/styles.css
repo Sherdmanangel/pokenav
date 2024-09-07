@@ -3,6 +3,13 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+body,html {
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
 /*.mat-mdc-text-field-wrapper{*/
 /*  border-radius: 2.0rem !important;*/
 /*  !*height: 2.0rem !important;*!*/

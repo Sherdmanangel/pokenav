@@ -19,3 +19,8 @@
 .example-item {
   height: 180px;
 }
+
+#footer_shadow{
+  -webkit-box-shadow: 5px 50px 50px 50px #bebebe;
+  box-shadow: 5px 50px 50px 50px #cccccc;
+}

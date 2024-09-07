@@ -1,13 +1,11 @@
-import {ChangeDetectionStrategy, Component, inject} from '@angular/core';
-import {MatIconModule, MatIconRegistry} from '@angular/material/icon';
-import {MatMenuModule} from '@angular/material/menu';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatFormField, MatFormFieldModule, MatLabel} from "@angular/material/form-field";
-import {MatInput, MatInputModule} from "@angular/material/input";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatInputModule} from "@angular/material/input";
 import {FormsModule} from "@angular/forms";
 import {MatSelectModule} from "@angular/material/select";
-import {DomSanitizer} from "@angular/platform-browser";
 
 
 interface Food {
