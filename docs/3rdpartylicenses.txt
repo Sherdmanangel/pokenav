@@ -15,7 +15,7 @@ License: "MIT"
 
 
 --------------------------------------------------------------------------------
-Package: @angular/cdk
+Package: @angular/material
 License: "MIT"
 
 The MIT License
@@ -41,7 +41,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 --------------------------------------------------------------------------------
-Package: @angular/material
+Package: @angular/cdk
 License: "MIT"
 
 The MIT License
@@ -73,11 +73,6 @@ License: "MIT"
 
 --------------------------------------------------------------------------------
 Package: @angular/animations
-License: "MIT"
-
-
---------------------------------------------------------------------------------
-Package: @angular/core
 License: "MIT"
 
 
@@ -304,6 +299,11 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
+--------------------------------------------------------------------------------
+Package: @angular/core
+License: "MIT"
+
+
 --------------------------------------------------------------------------------
 Package: zone.js
 License: "MIT"
