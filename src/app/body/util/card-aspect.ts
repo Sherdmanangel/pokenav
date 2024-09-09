@@ -32,7 +32,7 @@ export const cardButton = {
   bug:"background-color: #abff63",
   normal:"background-color: #e5e5e5",
   ground:"background-color: #d1b950",
-  fairy:"background-color: #fdb9e9",
+  fairy:"background-color: #ffbae1",
   fighting:"background-color: #fb7929",
   psychic:"background-color: #ff6bb8",
   ghost:"background-color: #705995",
@@ -40,7 +40,7 @@ export const cardButton = {
   ice:"background-color: #51c4e7",
   dragon:"background-color: #f16e57",
   dark:"background-color: #9778c9",
-  steal:"background-color: #9eb7b8",
+  steal:"background-color: #daf8ff",
 };
 
 

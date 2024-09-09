@@ -75,6 +75,7 @@ export class BodyComponent implements OnInit {
     const primerId = tipoPrincipal[0].pokemon_v2_type.id;
     // @ts-ignore
     let tipo:any = pokeTypes[primerId];
+
     // @ts-ignore
     return cardButton[tipo];
   }

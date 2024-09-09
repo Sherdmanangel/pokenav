@@ -25,10 +25,7 @@
                 </div>
 
                 <div class="row ps-0">
-                  <div class="col-4">
-                    <!--                  <p>{{ longText }}</p>-->
-
-                    <div class="col justify-content-center">
+                  <div class="col-4 z-1 ps-1">
 
                       @for (tipo of getTypeName(pokemon);  track tipo){
                         <button class="mb-1 btn btn-sm text-white"
@@ -40,9 +37,8 @@
                       <!--                    <button mat-flat-button style="background-color: #5ddfc6">Plant</button>-->
                       <!--                    <a mat-flat-button href="https://www.google.com/" target="_blank">Link</a>-->
                     </div>
-                  </div>
                   <div class="col-8">
-                    <div class="d-flex justify-content-end z-1 opacity-50" >
+                    <div class="d-flex justify-content-end z-1 p-0 opacity-50" >
 
 
                       <svg id="sphere" data-name="sphere" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481 480">
@@ -71,7 +67,7 @@
 
                     </div>
                     <div class="w-100 h-100">
-                      <div class="d-flex justify-content-center z-0">
+                      <div class="d-flex justify-content-end z-0">
                         <img
                           id="imgPok"
                           alt="{{pokemon.name | titlecase}}" src="{{getRoute(pokemon.id)}}">
@@ -89,7 +85,7 @@
 
     </mat-grid-list>
   }
-  @placeholder(minimum 1s) {
+  @placeholder(minimum 2s) {
     <div class=""></div>
   }
 
