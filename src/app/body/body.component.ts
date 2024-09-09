@@ -6,13 +6,14 @@ import {MatChipsModule} from "@angular/material/chips";
 import {ScrollingModule} from "@angular/cdk/scrolling";
 import {MatRipple} from "@angular/material/core";
 import {NgStyle} from "@angular/common";
+import {MatAnchor, MatButton} from "@angular/material/button";
 
 @Component({
   selector: 'app-body',
   templateUrl: './body.component.html',
   styleUrl: './body.component.css',
   standalone: true,
-  imports: [MatGridListModule, ScrollingModule, MatCardModule, MatChipsModule, MatProgressBarModule, MatRipple, NgStyle],
+  imports: [MatGridListModule, ScrollingModule, MatCardModule, MatChipsModule, MatProgressBarModule, MatRipple, NgStyle, MatButton, MatAnchor],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BodyComponent {

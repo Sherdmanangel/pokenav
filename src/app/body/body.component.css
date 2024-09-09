@@ -24,3 +24,14 @@
   -webkit-box-shadow: 5px 50px 50px 50px #bebebe;
   box-shadow: 5px 50px 50px 50px #cccccc;
 }
+
+#sphere{
+  position:absolute;
+  width:100px;
+  translate: 28px 0px;
+}
+#imgPok{
+  width:80px;
+  translate: 10px 0px;
+  filter: blur(0.3px);
+}
